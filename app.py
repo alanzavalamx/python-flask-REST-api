@@ -9,6 +9,10 @@ from resources.store import Store, StoreList
 
 from db import db
 
+"""
+Description
+"""
+
 app = Flask(__name__)
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://admin:d4t45c13nc3@192.6.9.154:5432/dbtest'
