@@ -1,4 +1,4 @@
-# python-flask-REST-api
+# Python Flask REST Api 
 
 ## Install requirements 
 
@@ -10,5 +10,5 @@ pip install -r requirements.txt
 
 ## Run application
 ```python
-python appy.py
+python code/app.py
 ```
