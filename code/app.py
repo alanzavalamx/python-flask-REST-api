@@ -11,7 +11,7 @@ from db import db
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://admin:d4t45c13nc3@192.6.9.154:5432/dbtest'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://user:pwd@host:port/databasename'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'Alan'
 api = Api(app)
