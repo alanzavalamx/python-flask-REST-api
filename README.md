@@ -2,10 +2,13 @@
 
 ## Install requirements 
 
-'''
-pip install -r requirements.txt
-'''
 
-'''
-run appy.py
-'''
+```python
+pip install -r requirements.txt
+
+```
+
+## Run application
+```python
+python appy.py
+```
